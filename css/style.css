@@ -101,6 +101,19 @@ h1#sneak-peak   {
 #email  {
     width: 20em;
 }
+#fill-box    {
+    height: 15em;
+    background-color: dimgray;
+}
+#coming-soon    {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(340deg);
+    text-align: center;
+    padding-top: 2em;
+    font-size: 3em;
+}
+
+
 /*Class*/
 .centre{
     margin-right: auto;
@@ -108,7 +121,6 @@ h1#sneak-peak   {
     padding-right: auto;
     padding-left: auto;
 }
-
 .navigate   {
     color: #ffffff;
     text-decoration: none;
@@ -210,7 +222,9 @@ h1#sneak-peak   {
     background-color: #000000;
 
 }
-
+.hidden {
+    display: none;
+}
 /*HTML*/
 
 body {
