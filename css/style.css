@@ -93,6 +93,14 @@ h1#sneak-peak   {
 #host   {
     margin: 0;
 }
+#email-subscribe    {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-right: 1em;
+}
+#email  {
+    width: 20em;
+}
 /*Class*/
 .centre{
     margin-right: auto;
@@ -111,7 +119,6 @@ h1#sneak-peak   {
 }
 .inline {
     display: inline;
-    float:left;
 }
 
 .sidebar-left    {
@@ -152,6 +159,9 @@ h1#sneak-peak   {
 }
 .float-right    {
     float: right;
+}
+.float-left {
+    float: left;
 }
 .button:hover  {
     color: black;
