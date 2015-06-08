@@ -113,6 +113,18 @@ h1#sneak-peak   {
     font-size: 3em;
 }
 
+#setup{
+    width: 100%;
+}
+#setup-placeholder   {
+    background: url(../img/setup-sheet.png) no-repeat;
+
+
+}
+#footer {
+    border: solid grey;
+    margin: 1em 0 0 0;
+}
 
 /*Class*/
 .centre{
@@ -225,6 +237,35 @@ h1#sneak-peak   {
 .hidden {
     display: none;
 }
+
+.remove-underline   {
+    text-decoration: none;
+}
+.driver-box {
+    background-color: lightgray;
+    background:rgba(211, 211, 211, .12);
+    border: #4e4e4e solid;
+
+    text-decoration: none;
+}
+
+
+a .driver-box:hover {
+    background-color: white;
+    background:rgba(365, 365, 365, .75);
+    border: #080006 solid;
+
+    color: #000000;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu-spacing   {
+    margin: 0 .6em;
+}
+.min-height {
+        min-height: 300px;
+    }
 /*HTML*/
 
 body {
