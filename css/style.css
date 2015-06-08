@@ -106,7 +106,7 @@ h1#sneak-peak   {
     background-color: dimgray;
 }
 #coming-soon    {
-    transform: rotate(45deg);
+    transform: rotate(340deg);
     -webkit-transform: rotate(340deg);
     text-align: center;
     padding-top: 2em;
